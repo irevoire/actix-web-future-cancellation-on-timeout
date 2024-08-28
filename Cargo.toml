@@ -1,0 +1,8 @@
+[package]
+name = "actix-web-future-cancellation-on-timeout"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+tokio = { version = "1.39.3", features = ["full"] }
